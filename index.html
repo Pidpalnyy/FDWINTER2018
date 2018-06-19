@@ -30,7 +30,32 @@
 		text-shadow: 5px 5px 10px black;
 		margin-left: 40px;
 	}
-
+	.main{
+		width: 60%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	h2{
+		font-size: 40px;
+		font-style: italic;
+		font-weight: bold;
+		color: yellow;
+		text-transform: uppercase;
+		text-shadow: 5px 5px 10px blue;
+	}
+	.img{
+		width: 400px;
+		height: 300px;
+		float: left;
+		background-image: url('http://lisichansk.com.ua/wp-content/uploads/2014/08/zb-e1408262699120.jpg');
+		background-size: cover;
+		border: 5px solid white;
+	}
 	</style>
 </head>
 <body>
@@ -38,7 +63,11 @@
 		<div class="header">
 			<h1>Time for rest!!!</h1>
 		</div>
-		<div></div>
+		<div class="main">
+			<div class="img">
+				<h2>villa on the beach</h2>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
